@@ -1,0 +1,53 @@
+﻿.navbar {
+    /*TODO - customize*/
+    min-height: 50px;
+    margin-bottom: 20px;
+    background-color: #222;
+    /*TODO - Check*/
+    border: 1px solid transparent;
+    border-color: #080808;
+
+    .navbar-home {
+        float: left;
+        a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    }
+    /*div*/
+    .navbar-sections {
+        /*ul*/
+        .navbar-section {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            &.left {            
+                float: left;
+                padding-left: 20px;
+            }
+
+            &.right {
+                float: right;
+                padding-right: 20px;
+            }
+            /*li*/
+            .navbar-item {
+                float:left;
+                a{
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: #333;
+                    }
+                }
+            }
+        }
+    }
+}
